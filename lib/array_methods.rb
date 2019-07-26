@@ -12,10 +12,9 @@ def find_element_index(array, value_to_find)
   array.each_with_index do |element, index| 
       if element == value_to_find
         return index
-      else
-        return nil
       end
     end
+    return nil
 end
 
 def find_max_value(array)
