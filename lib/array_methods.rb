@@ -24,8 +24,7 @@ def find_max_value(array)
       max_val == element
     end
   end
-  loop
-  if the value is higher than current max value replace max value
+  return max_val
 end
 
 def find_min_value(array)
