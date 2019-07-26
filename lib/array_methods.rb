@@ -21,7 +21,7 @@ def find_max_value(array)
   max_val = 0
   array.each_with_index do |element, index|
     if element > max_val
-      max_val == element
+      max_val = element
     end
   end
   return max_val
