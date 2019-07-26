@@ -1,3 +1,5 @@
+require 'pry'
+
 # def find_element_index(array, value_to_find)
 #   i = 0
 #   while i < array.length 
@@ -32,6 +34,7 @@ def find_min_value(array)
   array.each_with_index do |element, index|
     if element < min_val
       min_val = element
+      binding.pry
     end
   end
   return min_val
