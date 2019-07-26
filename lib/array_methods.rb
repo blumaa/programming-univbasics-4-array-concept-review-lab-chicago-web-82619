@@ -1,5 +1,5 @@
 def find_element_index(array, value_to_find)
-  while i < array.length { |n|
+  while n < array.length { |n|
     
   }
 end
