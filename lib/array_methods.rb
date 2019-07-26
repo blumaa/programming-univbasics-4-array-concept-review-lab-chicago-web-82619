@@ -30,7 +30,7 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  min_val = []
+  min_val = array[0]
   array.each_with_index do |element, index|
     if element < min_val
       min_val = element
