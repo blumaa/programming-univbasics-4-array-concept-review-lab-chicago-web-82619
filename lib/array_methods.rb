@@ -4,7 +4,7 @@ end
 
 
 def find_max_value(array)
-  # Add your solution here
+  for array {|i|
 end
 
 def find_min_value(array)
