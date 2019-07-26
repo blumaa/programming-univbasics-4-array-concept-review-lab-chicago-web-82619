@@ -8,6 +8,12 @@ def find_element_index(array, value_to_find)
   end
 end
 
+def find_element_index(array, value_to_find)
+  array.each_with_index do |element, index| 
+      if element == value_to_find
+        return index
+    end
+end
 
 def find_max_value(array)
 end
